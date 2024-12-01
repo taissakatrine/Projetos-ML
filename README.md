@@ -42,12 +42,7 @@ O notebook inclui o código para carregar o dataset, preparar os dados, definir 
 
 ### Teste do Modelo
 
-Para testar o modelo com uma imagem específica, faça o upload da imagem para o Google Colab e execute o código para fazer a previsão. O notebook inclui um exemplo de como fazer isso.
-
-### Envio para o GitHub
-
-O projeto deve ser enviado para o GitHub da DIO. Use os comandos Git no terminal do COLAB para enviar o projeto:
-
+Para testar o modelo com uma imagem específica, faça o upload da imagem para o Google Colab e execute o código para fazer a previsão.
 ```bash
 !git init
 !git remote add origin https://github.com/seu_usuario/seu_repositorio.git
