@@ -1,0 +1,19 @@
+from PIL import Image
+
+#Carregar a imagem colorida
+imagem_colorida = Image.open('C:/Users/xcris/Pictures/Saved Pictures/R.jpg')
+#Converter a imagem para níveis de cinza
+imagem_cinza = imagem_colorida.convert('L')
+#Salvar a imagem
+imagem_cinza.save('imagem_cinza.jpg')
+#Definir a limiar para binarização
+limiar = 200
+#Binarizar a imagem (0 a 255)
+imagem_binarizada = imagem_cinza.point(lambda p: 255 if p > limiar else 0)
+
+imagem_binarizada.save('imagem_binarizada.jpg')
+
+#Exibir as imagens
+imagem_colorida.show()
+imagem_cinza.show()
+imagem_binarizada.show()
