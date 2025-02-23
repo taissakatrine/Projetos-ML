@@ -36,9 +36,6 @@
 
             !./darknet detector train data/obj.data cfg/yolov3_custom.cfg yolov3.conv.81
 
-#### Autor
-
-- **Wagner Nogueira**.
 
 #### Agradecimentos:
 
